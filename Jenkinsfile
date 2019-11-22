@@ -3,7 +3,6 @@ pipeline {
     node {
       label 'ALDNDEVC'
     }
-
   }
   stages {
         stage('second') {
@@ -11,9 +10,5 @@ pipeline {
             sh 'system -kpeb dsplibl'
           }
         }
-
-      }
     }
-
-  }
 }
